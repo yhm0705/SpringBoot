@@ -20,9 +20,8 @@ public class StudyService {
         userdata.setAge(18);
         userdata.setGender("M");
         userdata.setUserid("tester1");
-        
-        System.out.println("testsetsetsetset");
-        System.out.println(userdata);
+       
+        // System.out.println(userdata);
 
         studyMapper.insert(userdata);
 
