@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.study.mapper.StudyMapper">
 
-    <insert id="insert" parameterType="com.example.study.model.StudyModel" >
+    <insert id="insert" parameterType="StudyModel" >
         INSERT INTO user ( userid, age, gender ) VALUES ( #{userid}, #{age}, #{gender} );
     </insert>
     
