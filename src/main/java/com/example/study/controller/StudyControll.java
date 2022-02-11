@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/study")
 public class StudyControll {
 
-    
     @Autowired
     StudyService studyService;
 
